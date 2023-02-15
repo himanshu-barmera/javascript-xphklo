@@ -599,6 +599,9 @@
 
 //////////////////////////////////////////////////////////
 const number = undefined + 11;
+console.log(typeof NAN);
+console.log(typeof 11);
+console.log(typeof 'other');
 if (number === NaN) {
   console.log('NaN');
 } else if (number === 11) {
